@@ -64,6 +64,7 @@ public final class Main {
         // Test operations with points and vectors
         Point_3D p1 = new Point_3D(1, 2, 3);
         Point_3D p2 = new Point_3D(1, 2, 3);
+        Point_3D p3 = new Point_3D(1, 2, 3);
 
         if (!Point_3D.ZERO.equals(p1.add(new Vector(-1, -2, -3))))
             out.println("ERROR: Point + Vector does not work correctly");
